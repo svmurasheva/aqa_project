@@ -1,0 +1,11 @@
+{
+  "name": "aqa_project_cypress-tests",
+  "version": "1.0.0",
+  "description": "Project uses nvm to manage node versions. Type 'nvm use' to apply the right node version (v18.16.1) - specified in .nvmrc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "s.v.murasheva@gmail.com",
+  "license": "ISC"
+}
