@@ -17,3 +17,6 @@ You might have to run PowerShell or your entire IDE as admin.
  - 'yarn start' to run without watch
  - 'yarn list:dev:users' to list avaliable users
  - refer to cypress-realworld-app/README.md for more details.
+ 4. To run the app and cypress:
+  - cd cypress-tests
+  - npm run app:cypress:open

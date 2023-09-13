@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "app:cypress:open": "concurrently \"cd ../cypress-realworld-app && yarn start\" \"cypress open\"",
     "cypress:open": "cypress open"
   },
   "author": "s.v.murasheva@gmail.com",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.1.0"
+    "concurrently": "7.1.0",
+    "cypress": "^13.1.0",
+    "cypress-commands": "^3.0.0",
+    "cypress-xpath": "^2.0.1"
   }
 }
