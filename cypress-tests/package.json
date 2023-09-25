@@ -11,8 +11,10 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "7.1.0",
-    "cypress": "^13.1.0",
+    "cypress": "12.14.0",
     "cypress-commands": "^3.0.0",
-    "cypress-xpath": "^2.0.1"
+    "cypress-if": "^1.10.5",
+    "cypress-xpath": "^2.0.1",
+    "moment": "^2.29.4"
   }
 }
